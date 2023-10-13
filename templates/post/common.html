@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MonkeyTest</title>
+</head>
+<body>
+    <form method="post" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1>post 页面</h1>
+        企业邮箱(必填)：<input type="text" name="email" value="liuyingbo@trade-ai.com"><br>
+        cookies(选填)：<input type="text" name="cookies"><br>
+        <br>
+        
+        <h1>api选择</h1>
+        <input type="radio" name="api" value="ocr" checked = "checked">图片文字识别<br>
+        <input type="radio" name="api" value="test">留空<br>
+        api参数(选填)：<input type="text" name="args"><br>
+        
+        <h1>有关文件上传</h1>
+        <input type="file" name="file" multiple="multiple"><br>
+        <br>
+        <input type="submit" value="上传">
+        <br><br><br>
+        <b><small>测试执行结果：</small></b><hr>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>测试执行人</td>
+                <td>测试版本号</td>
+                <td>ANR异常数</td>
+                <td>Crash异常数</td>
+                <td>Exception异常数</td>
+                <td>是否执行完</td>
+                <td>统计合计</td>
+                <td>备注</td>
+            </tr>
+        </thead>
+        <tbody>
+ 
+ 
+        </tbody>
+    </table>
+ 
+</body>
+</html>

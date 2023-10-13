@@ -1,0 +1,182 @@
+{% load static %}
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="webthemez.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/flexslider.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/jquery.fancybox.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/main.css' %}"> 
+<link href="{% static 'home/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.min.css' %}" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{% static 'home/css/responsive.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/font-icon.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/animate.min.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/font-awesome.min.css' %}">
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner" id="banner">
+  <header id="header">
+    <div class="header-content clearfix"> <span class="logo"><a href="index.html">#研发部</a></span>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10">
+      <div class="banner-text text-center">
+        <h1>Welcome</h1>
+        <p>To 易查云 研发部</p></div>
+      <!-- banner text --> 
+    </div>
+  </div>
+</section>
+<!-- header section --> 
+<!-- intro section -->
+<section id="intro" class="section intro">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>--------------------</h3>
+      <p>---------------------</p> 
+        <a href="#Playlist" class="btn btn-large">Don't Click</a> 
+    </div>
+  </div>
+</section>
+<!-- intro section --> 
+<!-- Footer section -->
+<footer class="footer">
+<div class="container-fluid">
+<div id="map-row" class="row">
+    <div class="col-xs-12">    
+    	<!---<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+      
+          <div id="map-overlay" class="col-xs-5 col-xs-offset-6" style="">
+    		<h2 style="margin-top:0;color:#fff;">Contact us</h2>
+    		<address style="color:#fff;">
+    			<strong>Company name</strong><br>
+    			1234 Street Dr.<br>
+    			Vancouver, BC<br>
+    			Canada<br>
+    			V6G 1G9<br>
+    			<abbr title="Phone">Tel:</abbr> (604) 555-4321
+    		</address>
+			  Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+    	</div>--->
+    </div>
+	 </div>
+</div>
+</footer>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="{% static 'home/js/jquery.min.js' %}"></script> 
+<script src="{% static 'home/js/bootstrap.min.js' %}"></script> 
+<script src="{% static 'home/js/jquery.flexslider-min.js' %}"></script> 
+<script src="{% static 'home/js/jquery.fancybox.pack.js' %}"></script> 
+<script src="{% static 'home/js/retina.min.js' %}"></script> 
+<script src="{% static 'home/js/modernizr.js' %}"></script> 
+<script src="{% static 'home/js/main.js' %}"></script> 
+<script type="text/javascript" src="{% static 'home/js/jquery.contact.js' %}"></script> 
+
+<script type="text/javascript" src="{% static 'home/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'home/jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js' %}"></script> 
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+ 
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_2",
+		cssSelectorAncestor: "#jp_container_2"
+	}, [
+		{
+			title:"Cro Magnon Man",
+			mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg"
+		},
+		{
+			title:"Your Face",
+			mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
+		},
+		{
+			title:"Cyber Sonnet",
+			mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
+		},
+		{
+			title:"Tempered Song",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
+		},
+		{
+			title:"Hidden",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
+		},
+		{
+			title:"Lentement",
+			free:true,
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+		},
+		{
+			title:"Lismore",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+		},
+		{
+			title:"The Separation",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
+		},
+		{
+			title:"Beside Me",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
+		},
+		{
+			title:"Bubble",
+			free:true,
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+		},
+		{
+			title:"Stirring of a Fool",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
+		},
+		{
+			title:"Partir",
+			free: true,
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
+		},
+		{
+			title:"Thin Ice",
+			mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+			oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
+		}
+	], {
+		swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+</body>
+</html>
