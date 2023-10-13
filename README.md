@@ -1,2 +1,2 @@
-# dj_learning-
+# dj_learning
 Django test proj
